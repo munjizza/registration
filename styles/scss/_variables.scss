@@ -1,0 +1,39 @@
+// margins
+$margin-small: 24px;
+$margin-medium: 32px;
+// $margin-medium-plus: $margin-medium + $default-indent;
+$margin-large: 56px;
+$margin-extra-large: 112px;
+// 
+// $default-indent: 8px;
+// 
+
+
+// **** gradient example: ****
+
+// $list1: $blue, $green, $orange; 
+
+// $list2: $blue 0%,$blue 33%,$green 33%,$green 66%, $orange 66%, $orange 100%; 
+
+// $list3: $blue 0%,$blue 10%,$green 25%,$green 39%,$orange 79%,$orange 100%; 
+
+// $list4: $blue, $green, $orange, $blue, $green, $orange, $blue, $green, $orange; 
+
+// @mixin gradient($direction, $list) { 
+//   background: -webkit-linear-gradient($direction, $list);
+//   background: -moz-linear-gradient($direction, $list);
+//   background: -o-linear-gradient($direction, $list);
+//   background: linear-gradient($direction, $list);  
+// }
+
+// .one {
+//     @include gradient(left, $list1);
+//   }
+  
+//   .two {
+//     @include gradient(right, $list1);
+//   }
+  
+//   .three {
+//     @include gradient(left, $list2);
+//   }

@@ -1,0 +1,12 @@
+
+@import "variables";
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.form__input-error {
+    color: #ff0000;
+}

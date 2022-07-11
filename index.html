@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Registartion</title>
+  <meta name="description" content="Registration test project.">
+  <!-- <link rel="icon" href="/favicon.ico"> -->
+  <link rel="stylesheet" href="styles/css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title" id="RegistrationTitle"></h1>
+    <!-- 32px -->
+            <p class="header__intoduction"></p>
+    <!-- 56px -->
+        </header>
+
+        <main class="main">
+            <form class="form" id="form">
+                <!-- radio buttons -->
+                <div class="form__salutation">
+                    <span class="salutation"></span>
+                    <input class="salutation__value" type="text" hidden></input>
+
+                    <input class="salutation__option" type="radio" name="salutation">
+                    <label class="salutation__label form__label"></label>
+                    <input class="salutation__option" type="radio" name="salutation">
+                    <label class="salutation__label form__label"></label>
+                    <input class="salutation__option" type="radio" name="salutation">
+                    <label class="salutation__label form__label"></label>
+                </div>
+
+                <!-- input fields -->
+                <div class="form__personal-data">
+                    <div class="form__element firstName">
+                        <label for="firstName" class="form__label first-name-label"></label>
+                        <input type="text" id="firstName" name="firstName" class="form__input">
+                        <p class="form__input-error"></p>
+                    </div>
+        <!-- 24px -->
+                    <div class="form__element lastName">
+                        <label for="lastName" class="form__label last-name-label"></label>
+                        <input type="text" id="lastName" name="lastName" class="form__input">
+                        <p class="form__input-error"></p>
+                    </div>
+
+                    <div class="form__element email">
+                        <label for="email" class="form__label email-label"></label>
+                        <input type="email" id="email" name="email" class="form__input">
+                        <p class="form__input-error"></p>
+                    </div>
+        <!-- 24px -->
+                    <div class="form__element password">
+                        <label for="password" class="form__label password-label"></label>
+                        <input type="password" id="password" name="password" class="form__input">
+                        <p class="form__input-error "></p>
+
+                        <!-- <ul class="password__rules">
+                            <li class="password__letter-rule"></li>
+                            <li class="password__number-rule"></li>
+                            <li class="password__spec-car-rule"></li>
+                            <li class="password__min-leng-rule"></li>
+                        </ul> -->
+                    </div>
+                </div>
+        <!-- 32px -->
+                <!-- checkboxes -->
+                <!-- <div class="form__checkboxes">
+                        <input type="checkbox" id="newsletter">
+                        <label for="newsletter" class="form__label"></label>
+                        <input type="checkbox" id="privacy">
+                        <label for="privacy" class="form__label"></label>
+                    </div> -->
+        <!-- 40px -->
+                <button type="submit" id="submit-btn" class="form__submit"></button>
+        <!-- 56px -->
+                <br>
+                <a class="form_login-link" id="login-link"></a>
+        <!-- 112px -->
+                <p class="form__status-message"></p>
+            </form>
+        </main>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+{
+  "registrationLabels": {
+    "RegistrationLoginLinkLabel": "Bereits ein Konto? Zur Anmeldung",
+    "RegistrationLoginLink": {
+      "url": "/login"
+    },
+    "RegistrationTitle": "Registrierung",
+    "RegistrationIntroductionText": "Mit einem Konto können Sie Bestellungen effizienter verfolgen und Artikel zurückgeben. Ausserdem können Sie mehrere Adressen speichern und den Bezahlvorgang beschleunigen.",
+    "RegistrationSaveButtonLabel": "Konto erstellen",
+    "TermsAndConditions": {
+      "FieldLabel": "Ich akzeptiere die ${link}.",
+      "IsRequired": true,
+      "IsRequiredError": "Bitte akzeptieren Sie die AGB’s."
+    },
+    "TermsAndConditionsLink": {
+      "href": "/terms",
+      "text": "AGB’s."
+    },
+    "PrivacyPolicy": {
+      "FieldLabel": "Ich akzeptiere die ${link}",
+      "IsRequired": true,
+      "IsRequiredError": "Bitte akzeptieren Sie die Datenschutzbestimmungen."
+    },
+    "PrivacyPolicyLink": {
+      "href": "/privacy",
+      "text": "Datenschutzbestimmungen"
+    },
+    "Newsletter": {
+      "FieldLabel": "Ich möchte den kostenlosen Newsletter erhalten.",
+      "IsRequired": false
+    },
+    "Salutation": {
+      "FieldLabel": "Anrede",
+      "IsRequired": true,
+      "IsRequiredError": "Bitte wählen Sie eine Ansprache."
+    },
+    "SalutationSource": [
+      {
+        "ID": "mr",
+        "Name": "Herr"
+      },
+      {
+        "ID": "ms",
+        "Name": "Frau"
+      },
+      {
+        "ID": "na",
+        "Name": "Keine Angabe"
+      }
+    ],
+    "Email": {
+      "FieldLabel": "E-Mail",
+      "IsRequired": true,
+      "IsRequiredError": "Bitte geben Sie eine E-Mail Adresse an bevor sie speichern. ",
+      "Regexp1": ".*\\@.*",
+      "Regexp1Error": "Bitte geben Sie eine gültige E-Mail Adresse an bevor sie speichern. "
+    },
+    "FirstName": {
+      "FieldLabel": "Vorname",
+      "IsRequired": true,
+      "IsRequiredError": "Bitte geben Sie Ihren Vornamen ein.",
+      "MaxLength": "50",
+      "MaxLengthError": "Der Vorname darf maximal 50 Zeichen haben."
+    },
+    "LastName": {
+      "FieldLabel": "Nachname",
+      "IsRequired": true,
+      "IsRequiredError": "Bitte geben Sie Ihren Nachnamen ein.",
+      "MaxLength": "50",
+      "MaxLengthError": "Der Nachname darf maximal 50 Zeichen haben."
+    },
+    "Password": {
+      "FieldLabel": "Passwort",
+      "IsRequired": true,
+      "IsRequiredError": "Bitte geben Sie ein Passwort ein",
+      "LetterRule": "Klein- und Grossbuchstabeh",
+      "NumberRule": "Mindestens eine Zahl",
+      "SpecialCharacterRule": "Mindestens ein Sonderzeichen",
+      "MinLengthError": "Mindestens 9 Zeichen"
+    }
+  },
+  "createUser": {}
+}
